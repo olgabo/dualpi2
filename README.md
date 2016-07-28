@@ -47,6 +47,10 @@ Add pi2 as a qdisc with a bottleneck of 40Mbps:
 
 `sudo tc qdisc add dev <interface> parent 1:10 pi2` 
 
+or with the dualQ option:
+
+`sudo tc qdisc add dev <interface> parent 1:10 pi2 dualq` 
+
 
 * Dependencies:
 
